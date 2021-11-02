@@ -1,0 +1,21 @@
+2021-10-06T10:25:54,170 Using pip 21.2.4 from C:\Users\bill1\AppData\Local\Programs\Python\Python39\lib\site-packages\pip (python 3.9)
+2021-10-06T10:25:54,175 Non-user install because site-packages writeable
+2021-10-06T10:25:54,228 Created temporary directory: C:\Users\bill1\AppData\Local\Temp\pip-ephem-wheel-cache-sope9rki
+2021-10-06T10:25:54,229 Created temporary directory: C:\Users\bill1\AppData\Local\Temp\pip-req-tracker-6s_tb2ba
+2021-10-06T10:25:54,229 Initialized build tracking at C:\Users\bill1\AppData\Local\Temp\pip-req-tracker-6s_tb2ba
+2021-10-06T10:25:54,229 Created build tracker: C:\Users\bill1\AppData\Local\Temp\pip-req-tracker-6s_tb2ba
+2021-10-06T10:25:54,230 Entered build tracker: C:\Users\bill1\AppData\Local\Temp\pip-req-tracker-6s_tb2ba
+2021-10-06T10:25:54,231 Created temporary directory: C:\Users\bill1\AppData\Local\Temp\pip-install-hhu0p8ct
+2021-10-06T10:25:54,231 ERROR: You must give at least one requirement to install (see "pip help install")
+2021-10-06T10:25:54,233 Exception information:
+2021-10-06T10:25:54,233 Traceback (most recent call last):
+2021-10-06T10:25:54,233   File "C:\Users\bill1\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_internal\cli\base_command.py", line 173, in _main
+2021-10-06T10:25:54,233     status = self.run(options, args)
+2021-10-06T10:25:54,233   File "C:\Users\bill1\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_internal\cli\req_command.py", line 203, in wrapper
+2021-10-06T10:25:54,233     return func(self, options, args)
+2021-10-06T10:25:54,233   File "C:\Users\bill1\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_internal\commands\install.py", line 286, in run
+2021-10-06T10:25:54,233     reqs = self.get_requirements(args, options, finder, session)
+2021-10-06T10:25:54,233   File "C:\Users\bill1\AppData\Local\Programs\Python\Python39\lib\site-packages\pip\_internal\cli\req_command.py", line 409, in get_requirements
+2021-10-06T10:25:54,233     raise CommandError(
+2021-10-06T10:25:54,233 pip._internal.exceptions.CommandError: You must give at least one requirement to install (see "pip help install")
+2021-10-06T10:25:54,258 Removed build tracker: 'C:\\Users\\bill1\\AppData\\Local\\Temp\\pip-req-tracker-6s_tb2ba'
